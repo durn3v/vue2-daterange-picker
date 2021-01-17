@@ -595,6 +595,7 @@
           this.end = endDate ? new Date(endDate) : null
           // this.open = false
           this.togglePicker(false, true)
+          this.$emit('cancel');
         }
       },
       onSelect () {
